@@ -100,12 +100,6 @@ body {
 		display: flex;
 		flex-wrap: wrap;
 	}
-	.gallery > * {
-	flex: 1;
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-}
 	.gallery__item {
 		max-width: calc(var(--index) * 21);
 		margin-bottom: var(--gallery-gap);
